@@ -1,0 +1,24 @@
+{
+  "name": "2-how-to-build-buy-me-coffee-defi-dapp",
+  "version": "1.0.0",
+  "description": "Buy me a coffee dApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karadikid/2-How-to-Build-Buy-Me-Coffee-DeFi-dApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karadikid/2-How-to-Build-Buy-Me-Coffee-DeFi-dApp/issues"
+  },
+  "homepage": "https://github.com/karadikid/2-How-to-Build-Buy-Me-Coffee-DeFi-dApp#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
+  }
+}
