@@ -36,12 +36,6 @@ contract BuyMeACoffee {
         owner = payable(msg.sender);
     }
 
-    /**
-     * @dev fetches all stored memos
-     */
-    function getMemos() public view returns (Memo[] memory) {
-        return memos;
-    }
 
     /**
      * @dev buy a coffee for owner (sends an ETH tip and leaves a memo)
