@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# Buy Virtual Nexus a Coffee
 
 This project builds a simmple Buy Me a Coffee dApp which allows sending a tip and memo to an address based upon your Web3 wallet.
 
@@ -8,7 +8,7 @@ Repl.it
 Deployed to Goerli
 ```
 
-[Demo Website)(https://buymeacoffee-solidity-defi-tipping-app--karadikid.repl.co/)
+[Demo Website](https://buymeacoffee-solidity-defi-tipping-app--karadikid.repl.co/)
 
 ```
 1. Connect Wallet
