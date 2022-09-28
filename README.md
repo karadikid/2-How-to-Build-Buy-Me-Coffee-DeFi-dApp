@@ -1,13 +1,12 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project builds a simmple Buy Me a Coffee dApp which allows sending a tip and memo to an address based upon your Web3 wallet.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+
+```
+Ensure on appropriate Web3 Network (Arbitrum, Mainnet, Polygon)
+Enter tip into field
+Write a friendly message
+Sign request
 ```
