@@ -8,10 +8,12 @@ Repl.it
 Deployed to Goerli
 ```
 
+[Demo Website)(https://buymeacoffee-solidity-defi-tipping-app--karadikid.repl.co/)
 
 ```
-Ensure on appropriate Web3 Network (Arbitrum, Mainnet, Polygon)
-Enter tip into field
-Write a friendly message
-Sign request
+1. Connect Wallet
+2. Ensure on appropriate Web3 Network (Ethereum Goerli)
+3. Enter Name
+4. Write a friendly message
+5. Sign request
 ```
