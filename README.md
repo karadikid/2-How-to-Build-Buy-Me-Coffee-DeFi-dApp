@@ -2,6 +2,11 @@
 
 This project builds a simmple Buy Me a Coffee dApp which allows sending a tip and memo to an address based upon your Web3 wallet.
 
+```
+Build using Hardhat
+Repl.it
+Deployed to Goerli
+```
 
 
 ```
