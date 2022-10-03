@@ -4,7 +4,7 @@
 pragma solidity ^0.8.4;
 
 // Switch this to your own contract address once deployed, for bookkeeping!
-// Contract Address on Goerli: 0xbb3fb061493Cf145c8F00638063BE11B2b9E24D6
+// Contract Address on Goerli: 0xa0d8e657c03ceddee7d2d1ec506cca200690c2be
 
 contract BuyMeACoffee {
     // Event to emit when a Memo is created.
@@ -43,6 +43,27 @@ contract BuyMeACoffee {
      * @param _message a nice message from the purchaser
      */
     function buyCoffee(string memory _name, string memory _message) public payable {
+        // Must accept more than 0 ETH for a coffee.
+        require(msg.value > 0, "can't buy coffee for free!");
+
+        // Add the memo to storage!
+        memos.push(Memo(
+            msg.sender,
+            block.timestamp,
+            _name,
+            _message
+        ));
+
+        // Emit a NewMemo event with details about the memo.
+        emit NewMemo(
+            msg.sender,
+            block.timestamp,
+            _name,
+            _message
+        );
+    }
+
+        function buyLargeCoffee(string memory _name, string memory _message) public payable {
         // Must accept more than 0 ETH for a coffee.
         require(msg.value > 0, "can't buy coffee for free!");
 
